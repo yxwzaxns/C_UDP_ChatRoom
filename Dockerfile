@@ -1,5 +1,6 @@
 FROM ubuntu
 RUN apt-get -y update
+RUN apt-get -y install gcc
 RUN mkdir /server
 ADD . /server
 WORKDIR /server
