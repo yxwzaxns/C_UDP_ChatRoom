@@ -8,6 +8,8 @@
 #include <sys/socket.h>
 #include <unistd.h>
 #include <arpa/inet.h>
+#include <mysql/mysql.h>
+
 
 #define Cli_Port 65534
 #define Ser_Port 65535
